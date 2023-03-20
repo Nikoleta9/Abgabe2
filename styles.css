@@ -1,0 +1,53 @@
+
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url("watch2.webp");
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    margin: 0px;
+}
+
+
+h1 {
+    font-size: 32px;
+    padding: 15px;
+    margin: 0px;
+}
+
+a {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+div {
+    justify-content: center;
+    border-radius: 10px;
+    background-color: darkblue;
+    width: 600px;
+    margin: auto;
+}
+
+.time-section {
+    background-color: lightgray;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 200px;
+    margin: 0px;
+    align-items: center;
+}
+
+#output {
+    background-color: lightgray;
+    visibility: hidden;
+}

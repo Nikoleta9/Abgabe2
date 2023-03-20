@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>HYP1_T1 &ndash; JavaScript Date Object</title>
-    <meta charset="utf-8">
-    <!-- TODO: Create your JavaScript file and include it here -->
-</head>
-<body>
+    <head>
+        <title>HYP1_T1 &ndash; JavaScript Date Object</title>
+        <meta charset="utf-8">
+        <!-- TODO: Create your JavaScript file and include it here -->
+        <link href="./styles.css" rel="stylesheet"/>
+    </head>
 <!-- TODO: Call functions for current day and current time (from the JS file) here -->
-
 <!-- TODO: Add links for time on page and refresh and call them using the javascript pseudo protocol -->
-</body>
+    <body>
+        <div>
+            <h1>
+                HYP1_T1 - JavaScript Date Object
+            </h1>
+            <div class="time-section">
+                <div id="output">
+                    <p>
+                        Today is
+                    </p>
+                    <p id="date"/>
+                    <p>
+                        The Time is
+                    </p>
+                    <p id="time"></p>
+                </div>
+                <a href="#" onclick="timeOnPage()">Your time on this Page</a></br>
+                <a href="#" onclick="refresh()">Refresh</a>
+            </div>
+
+        </div>
+        
+        <script src="./abgabe2.js"></script>
+    </body>
 </html>
